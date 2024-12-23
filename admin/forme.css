@@ -1,0 +1,91 @@
+/* Styles pour le conteneur principal */
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    margin-left: -30px; /* Décalage à gauche */
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  /* Styles pour le formulaire */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles pour les sections du formulaire */
+  .form-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+  }
+  
+  /* Sections gauche et droite */
+  .left, .right, .centre {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  /* Styles pour les groupes de formulaire */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: -5px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input, .form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style pour le bouton de soumission */
+  .form-group input[type="submit"] {
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

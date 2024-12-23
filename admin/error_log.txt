@@ -1,0 +1,11 @@
+2024-10-08 16:32:24 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'decla' cannot be null
+2024-10-08 16:37:05 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'decla' cannot be null
+2024-10-08 16:38:01 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'decla' cannot be null
+2024-10-08 17:08:17 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'decla' cannot be null
+2024-10-08 17:09:59 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'decla' cannot be null
+2024-10-08 17:10:04 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'decla' cannot be null
+2024-10-08 17:10:30 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'decla' cannot be null
+2024-10-08 17:16:11 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'obser' cannot be null
+2024-10-08 17:31:35 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gar' cannot be null
+2024-10-09 12:17:00 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'quantites_pannes' cannot be null
+2024-10-09 12:18:42 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'quantites_pannes' cannot be null

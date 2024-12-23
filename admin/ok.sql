@@ -1,0 +1,6 @@
+CREATE TABLE `admin` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `user` VARCHAR(255) NOT NULL,
+    `pass` VARCHAR(255) NOT NULL,
+    PRIMARY KEY (`id`)
+);

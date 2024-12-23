@@ -1,0 +1,32 @@
+/* General Body Styles */
+.form-section {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between left and right sections */
+}
+
+.left, .right {
+    flex: 1; /* Each section takes equal space */
+    margin: 10px; /* Space around the sections */
+}
+
+#facturesContainer, #pannesContainer {
+    margin-bottom: 20px; /* Space below each container */
+}
+
+h3 {
+    color: #333; /* Header color */
+    margin-bottom: 10px; /* Space below the header */
+}
+
+.button {
+    background-color: #007BFF; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for button */
+    padding: 10px 15px; /* Padding inside button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
